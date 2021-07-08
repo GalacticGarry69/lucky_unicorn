@@ -1,10 +1,7 @@
-print ("Hello world")
+name = "Your Name"
+while name.lower() != "xxx":
+    name = input("Who are you again? ")
+    print(name)
 
-# Ask user for number
-get_number = int(input("Choose a number? "))
-
-# Multiply the number by 5
-times_five = get_number * 5
-
-# Output the result
-print(times_five)
+print()
+print("We are done here, welcome back!")
